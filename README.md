@@ -100,11 +100,9 @@ Invoking the scripts with `gnuplot <GNUPLOT_FILE>` will yield the visualization 
 
 ## Testbed run on Intel i7-2700 with 4 cores at 3.50 GHz and HT ##
 
-Back in 2012 when the fork/join framework was a fresh and hot topic in the Java world, a colleague of mine and myself did an in-depth discussion of the inner workings of the fork/join framework along with a detailed analysis on the impact of different parameterizations on the execution time for the German Java magazine JavaSPEKTRUM (published with issue 05/2012). You can grab the article here (TODO: Link) (German only).
+Back in 2012 when the fork/join framework was a fresh and hot topic in the Java world, a colleague of mine and myself did an in-depth discussion of the inner workings of the fork/join framework along with a detailed analysis on the impact of different parameterizations on the execution time for the German Java magazine JavaSPEKTRUM (published with issue 05/2012). You can grab the article [![Fork/Join publication](http://www.accso.de/images/stories/accso/dokumente/2012_guenther-lehmann-javaspektrum-09-12.pdf)](here) (German only).
 
 We ran the Mandelbrot calculation several times on a Intel i7-2700 with 4 cores at 3.50 GHz (HT). The results are shown underneath.
-
-LINK: Optimal parameters
 
 [![Optimal Parameterization](https://dl.dropboxusercontent.com/u/8084425/optimal_parameterization.png)](https://dl.dropboxusercontent.com/u/8084425/optimal_parameterization.png)
 
