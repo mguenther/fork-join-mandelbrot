@@ -1,4 +1,4 @@
-# Calculating a Mandelbrot set using Fork/Join (Java 7)
+# Calculating Mandelbrot sets using Fork/Join (Java 7)
 
 This project shows how to use the Fork/Join framework that was introduced with Java 7 to parallelize CPU-bound tasks. The implementation comprises two parts: A Swing-based application which calculates (parallel part of the application) and visualizes (sequential part of the application) the Mandelbrot set, and a testbed which runs the Mandelbrot calculation with different configurations in order to investige the impact of different parameterizations of workload and number of threads on execution time. Testbed results are visualized with Gnuplot scripts.
 
